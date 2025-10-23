@@ -93,13 +93,23 @@ export default function Home() {
           <p className="text-xl mb-8 opacity-90">
             Be part of the beta. Help us build the platform women's health research deserves.
           </p>
-          <Link 
-            href="/auth/signup"
-            className="bg-white text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition inline-flex items-center gap-2"
-          >
-            Get Early Access
-            <ArrowRight className="w-5 h-5" />
-          </Link>
+          <div className="flex gap-4 justify-center">
+            <Link 
+              href="/auth/signup"
+              className="bg-white text-purple-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition inline-flex items-center gap-2"
+            >
+              Get Early Access
+              <ArrowRight className="w-5 h-5" />
+            </Link>
+            <a 
+              href="https://github.com/yourusername/artemis-health"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-purple-600 transition"
+            >
+              View on GitHub
+            </a>
+          </div>
         </div>
       </div>
 
